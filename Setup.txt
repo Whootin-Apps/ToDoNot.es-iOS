@@ -1,0 +1,20 @@
+
+You will need to make changes to these files:
+
+FBRequestWrapper.h
+You will need to add your Facebook Api Details:
+
+#import <Foundation/Foundation.h>
+#import "Facebook.h"
+#define FB_APP_ID @""
+#define FB_API_KEY @""
+#define FB_APP_SECRET @""
+
+
+InstagramAPI.m
+
+// CLIENT SPECIFIC CONFIG
+
+#define kAppId @""
+
+
